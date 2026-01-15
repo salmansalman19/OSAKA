@@ -15,8 +15,11 @@ body{
     color: var(--primaryColor);
 }
 .hero{
-    background-image:url(./../img/bg.jpg);
+    background-image:url(./../img/hero/bg.jpg);
     background-size: cover;
     background-position: center -100px;
     
+}
+.about {
+    background-image: url(/assets/img/public/light_dot.jpg);
 }
