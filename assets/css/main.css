@@ -20,6 +20,20 @@ body{
     background-position: center -100px;
     
 }
-.about {
+.about ,
+ .portfolio{
     background-image: url(/assets/img/public/light_dot.jpg);
 }
+
+ .portfolio .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: var(--primaryColor);
+}
+ .portfolio .nav-link{
+    color: black;
+ }
+  .portfolio .nav-tabs .nav-link{
+    border: none;
+  }
+    .portfolio .nav-tabs{
+        border-bottom: none;
+    }
