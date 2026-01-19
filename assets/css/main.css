@@ -20,6 +20,11 @@ body{
     background-position: center -100px;
     
 }
+.carousel-indicators [data-bs-target] {
+height: 30px;
+border-radius: 50%;
+background-color: var(--primaryColor);
+}
 .about ,
  .portfolio{
     background-image: url(/assets/img/public/light_dot.jpg);
