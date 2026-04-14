@@ -8,6 +8,18 @@ body{
 .text_primary{
     color: var(--primaryColor);
 }
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode .navbar {
+  background-color: #1f1f1f !important;
+}
+
+.dark-mode a {
+  color: white !important;
+}
 .navbar{
     background-color: black;
 }
