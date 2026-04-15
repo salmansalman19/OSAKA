@@ -16,7 +16,7 @@ toggleBtn.addEventListener("click", function () {
   }
 });
 
-let nameInput = document.getElementById("name");
+let nameInput = document.getElementById("name1");
 let emailInput = document.getElementById("email");
 let messageInput = document.getElementById("message");
 let sendBtn = document.getElementById("sendBtn");
@@ -47,4 +47,14 @@ let output = document.getElementById("output");
 
 input.addEventListener("input", function () {
   output.innerText = input.value;
+});
+let form = document.getElementById("myForm");
+let result = document.getElementById("result");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  let name = document.getElementById("name2").value;
+
+  result.innerText = "Hello " + name;
 });
