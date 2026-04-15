@@ -41,3 +41,10 @@ sendBtn.addEventListener("click", function () {
 nameInput.value = "";
 emailInput.value = "";
 messageInput.value = "";
+
+let input = document.getElementById("liveInput");
+let output = document.getElementById("output");
+
+input.addEventListener("input", function () {
+  output.innerText = input.value;
+});
